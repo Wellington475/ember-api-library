@@ -1,0 +1,10 @@
+<div class="col-md-10">
+	{{#link-to 'books.view' book.id class='link' }} {{book.title}} {{/link-to}}
+</div>
+<div class="col-md-1">
+	{{#link-to 'books.edit' book.id class='label label-primary'}} Alterar {{/link-to}}
+</div>
+<div class="col-md-1">
+	{{#link-to 'books.delete' book.id class='label label-danger'}} Deletar {{/link-to}}
+</div>
+<br>
