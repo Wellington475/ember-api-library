@@ -5,5 +5,14 @@ export default Route.extend({
   model(){
     return get(this, 'store').findAll('book')
       .then((books) => books);
+  },
+  actions: {
+    displayAlert(text) {
+      this._displayAlert(text);
+    }
+  },
+
+  _displayAlert(text) {
+    alert(text);
   }
 });

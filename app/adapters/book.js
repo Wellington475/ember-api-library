@@ -5,5 +5,6 @@ const {
 } = DS;
 
 export default RESTAdapter.extend({
-  host: 'https://library-rennanmore.c9users.io/api'
+  host: 'http://salabimsalabompoto.com/api'
+  //host: 'https://library-rennanmore.c9users.io/api'
 });
