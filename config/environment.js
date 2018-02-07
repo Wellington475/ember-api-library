@@ -20,10 +20,13 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+      url: 'http://salabimsalabompoto.com/api'
     }
   };
 
   if (environment === 'development') {
+    ENV.APP.url = 'http://salabimsalabompoto.com/api';
+
     ENV['ember-cli-mirage'] = {
       enabled: true
     };
@@ -35,6 +38,8 @@ module.exports = function(environment) {
   }
 
   if (environment === 'test') {
+    ENV.APP.url = 'http://salabimsalabompoto.com/api';
+    
     ENV['ember-cli-mirage'] = {
       enabled: true
     };
@@ -50,6 +55,9 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
+    // TODO: change url  
+    ENV.APP.url = 'http://salabimsalabompoto.com/api';
+    
     ENV['ember-cli-mirage'] = {
       enabled: false
     };
