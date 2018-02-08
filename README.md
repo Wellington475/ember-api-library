@@ -1,4 +1,4 @@
-# api-library
+# api-library [![Build Status](https://travis-ci.org/Wellington475/ThinkMachine.svg?branch=master)](https://travis-ci.org/Wellington475/ember-api-library.svg?branch=master)
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
