@@ -19,7 +19,6 @@ COPY . /library
 RUN cd library \
 	&& npm install -y
 
-
 # install chrome for default testem config (as of 2.15.0)
 RUN apt-get update &&\
     apt-get install -y \
